@@ -1,3 +1,18 @@
+'''
+Problem Statement:
+What is the time complexity of this algorithm, in terms of n?
+    for (int i = 1 to n) {
+        j = i
+        while (j < n) {
+            k = j
+            while (k < n) {
+                Sum += a[i]*b[j]*c[k]
+                k += log log n
+            }
+            j += log (j+10)
+        }
+    }
+'''
 import math
 import time
 import random
@@ -17,21 +32,7 @@ def algorithm(n, a, b, c):
     print(n,"\t\t",time.time() - start_time)    # this line prints the execution time of each loop
     return Sum
 
-'''
-Problem Statement:
-What is the time complexity of this algorithm, in terms of n?
-    for (int i = 1 to n) {
-        j = i
-        while (j < n) {
-            k = j
-            while (k < n) {
-                Sum += a[i]*b[j]*c[k]
-                k += log log n
-            }
-            j += log (j+10)
-        }
-    }
-'''
+
 #inputs to get 3 values which will be used to execute the pseudo code implementation
 # with different values of n ranging from n_start to n_end with an increment of n_inc
 n_start = int(input("Enter the starting value for n:"))

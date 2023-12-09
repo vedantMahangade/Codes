@@ -1,7 +1,5 @@
 /*
 
-Section 11.4.2.4 An Example" from Sebesta's book provides an exemple of an ADT (Abstract Data Type) implemented in C++. Provide an implementation of the same ADT using the programming language you used in your project (or if your prefer you can use Scala, Rust, Julia, or Go). If your selected programming language does not provide full support to OO, but it allows you to define Structs and methods attached to Structs, please use this approach.
-
  * The program is written in Kotlin which was used to develop a Movie App for the Pnumberroject. The program can be executed on below mentioned online kotlin compiler
  * https://play.kotlinlang.org/
  * Copy and Paste the below code into the editor and click on the 'Run' button on the top right corner and the results should appear in the new dialog box below the editore

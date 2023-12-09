@@ -1,9 +1,4 @@
-;Using Clojure progamming language, develop a script that list the 10 most common words in the following book ignoring the stops English words (https://www.ranks.nl/stopwords)
-
-;Moby Dick; Or, The Whale by Herman Melville
-;A text version of this book is available in the following URL:
-;https://www.gutenberg.org/cache/epub/2489/pg2489.txt
-
+;
 ;The provided clojure program can be excuted using https://replit.com/
 ;steps to execute the code:
 ;1. It would be required to create an account first to use the online IDE
@@ -16,7 +11,6 @@
 ;It fisrt extracts the stopwords from a URL and then extracts and preprosses the words from the book URL
 ; once the preprocessing is completed the tokenize-and-count function removes the stopwords and assigns frequency for each word followed by sorting the words based on frequency and finaly returns the top ten
 ;the top ten words allong with their count are then printed
-;
 ;
 
 

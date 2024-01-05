@@ -1,5 +1,5 @@
-# Design-Analysis-of-Algorithm---CSCI-6212---Project-Code
-A repository to host project code for the course Design &amp; Analysis of Algorithm (CSCI 6212)
+# Fall 2023 Codes
+A repository to host project and exam code for the course Design &amp; Analysis of Algorithm (CSCI 6212) and Advanced Software Paradigms (CSCI 6221)
 
 ## DAA Project Code 1.py: 
   Python program written for below Psuedo Code.
